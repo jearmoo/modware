@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>Colors</title>
+
+    <style>
+
+        form {
+            display:inline;
+        }
+
+        .container {
+            margin:250px auto;
+            width: 1200px;
+            text-align: center;
+        }
+
+        .button {
+            background-color: blue; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 50px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .button2 {background-color: red;} /* Blue */
+        .button3 {background-color: orange;} /* Red */
+        .button4 {background-color: yellow; color: black;} /* Gray */
+        .button5 {background-color: green;} /* Black */
+
+        .instructions {
+            font-size: 30px;
+        }
+    </style>
+  </head>
+  <body bgcolor=white>
+
+      <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
+
+      <div class="container">
+          <p class="instructions">LISTEN ON http://goo.gl/qHEkGR</p>
+          <form target="dummyframe" action="https://shielded-beyond-67265.herokuapp.com/change/1" method="get">
+              <button class="button button2" type="submit">Red</button>
+          </form>
+
+          <form target="dummyframe" action="https://shielded-beyond-67265.herokuapp.com/change/25" method="get">
+              <button class="button button3" type="submit">Orange</button>
+          </form>
+
+          <form target="dummyframe" action="https://shielded-beyond-67265.herokuapp.com/change/50" method="get">
+              <button class="button button4" type="submit">Yellow</button>
+          </form>
+
+          <form target="dummyframe" action="https://shielded-beyond-67265.herokuapp.com/change/99" method="get">
+              <button class="button button5" type="submit">Green</button>
+          </form>
+
+          <form target="dummyframe" action="https://shielded-beyond-67265.herokuapp.com/change/0" method="get">
+              <button class="button" type="submit">Blue</button>
+          </form>
+      </div>
+  </body>
+</html>
