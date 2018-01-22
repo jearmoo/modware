@@ -1,5 +1,6 @@
-# modware
-Submitted to PennApps Winter 2018
+# ModWare
+
+### Hackathon Project originally submitted to PennApps XVII in the Spring of 2018. This project can also be found on Devpost [here](https://devpost.com/software/modware).
 
 ## Inspiration
 We really are passionate about hardware, however many hackers in the community, especially those studying software-focused degrees, miss out on the experience of working on projects involving hardware and experience in vertical integration.
